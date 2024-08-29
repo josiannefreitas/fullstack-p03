@@ -1,0 +1,14 @@
+.content {
+  display: grid;
+  padding-inline: 2rem;
+  gap: 5rem;
+}
+
+.news-group .news h2 {
+  font: var(--heading2);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

@@ -1,0 +1,21 @@
+:root {
+  /* Product */
+  --brand-color-light: hsla(213, 94%, 68%, 1);
+  --brand-color-dark: hsla(224, 76%, 48%, 1);
+
+  /* Base */
+  --bg-color: hsla(222, 47%, 11%, 1);
+  --stroke-color: hsla(217, 33%, 17%, 1);
+
+  /* Text */
+  --text-color-primary: hsla(210, 40%, 96%, 1);
+  --text-color-secondary: hsla(213, 27%, 84%, 1);
+
+  /* Typography */
+  --font-family: Archivo, sans-serif;
+  --heading1: 800 1.5rem/135% var(--font-family);
+  --heading2: 800 1rem/140% var(--font-family);
+  --heading3: 800 0.875rem/140% var(--font-family);
+  --span: 600 0.875rem/145% var(--font-family);
+  --paragraph: 400 0.875rem/160% var(--font-family);
+}

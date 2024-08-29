@@ -1,0 +1,52 @@
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.primary {
+  padding: 1.25rem 2rem;
+}
+
+nav.primary .menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav.primary .menu-item h2 {
+  font: var(--heading2);
+}
+nav.primary .logo h1 {
+  font: var(--heading1);
+  color: var(--brand-color-light);
+  text-transform: uppercase;
+}
+
+nav.secondary {
+  padding: 0.88rem 2rem;
+  border-top: 1px solid var(--stroke-color);
+  border-bottom: 1px solid var(--stroke-color);
+}
+
+.content header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--stroke-color);
+}
+
+.content header h2 {
+  font: var(--span);
+  color: var(--text-color-secondary);
+}
+
+.content header .link-button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}

@@ -1,0 +1,34 @@
+.under aside .ads img {
+  width: 30.5rem;
+}
+
+.under aside .have-you-seen {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.under aside .have-you-seen .news-group {
+  display: grid;
+  gap: 2rem;
+}
+
+.under aside .have-you-seen .news-group .news {
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  gap: 1rem;
+}
+
+.under aside .have-you-seen .news-group .news main {
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.under aside .have-you-seen .news-group .news main h2 {
+  font: var(--heading3);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

@@ -1,0 +1,23 @@
+.under .ai-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.under .ai-highlights .news-group {
+  display: grid;
+  gap: 2rem;
+}
+
+.under .ai-highlights .news-group .news {
+  display: flex;
+  align-items: center;
+  height: 10.5rem;
+  gap: 1rem;
+}
+
+.under .ai-highlights .news-group .news main {
+  display: grid;
+  height: 100%;
+  gap: 0.5rem;
+}

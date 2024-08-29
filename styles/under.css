@@ -1,0 +1,8 @@
+.under {
+  display: flex;
+  gap: 2rem;
+}
+
+.news-group .news img {
+  height: 100%;
+}

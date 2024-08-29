@@ -1,0 +1,35 @@
+.most-read .news-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1.5rem 0;
+  gap: 1rem;
+}
+
+.most-read .news-group .news {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.most-read .news-group .news > div {
+  height: 10rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.most-read .news-group .news .news-1 {
+  background-image: url(../assets/images/image-06.png);
+}
+
+.most-read .news-group .news .news-2 {
+  background-image: url(../assets/images/image-07.png);
+}
+
+.most-read .news-group .news .news-3 {
+  background-image: url(../assets/images/image-08.png);
+}
+
+.most-read .news-group .news .news-4 {
+  background-image: url(../assets/images/image-09.png);
+}
